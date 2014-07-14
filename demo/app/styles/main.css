@@ -1,0 +1,142 @@
+@font-face {  
+    font-family: fangzheng-miaowu;
+    src: url('font/FZMWFont.ttf');
+} 
+body {
+    margin:0;
+    background-image: url("../images/bodybg.png");
+}
+#left {
+    background-image: url("../images/btn3.png");
+    width:40px;
+    height:44px;
+    margin-left: 21px;
+}
+#right {
+    background-image: url("../images/btn2.png");
+    width:40px;
+    height:44px;
+    margin-left: 36px;
+}
+#down {
+    background-image: url("../images/btn1.png");
+    width:40px;
+    height:44px;
+    margin-left: 54px;
+    margin-top: 13px;
+    
+}
+#rotate {
+    background-image: url("../images/btn4.png");
+    width:55px;
+    height:55px;
+    margin-left: 54px;
+}
+.btns div {
+    float:left;
+}
+.btns {
+    margin-top: -7px;
+    overflow: hidden;
+    
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+    background-color: rgba(232,232,232,0.7);
+    display:none;
+}
+.close-popup-resume,.close-popup-entername {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin: 62% auto;
+    border: 4px solid #647597;
+    border-radius: 7px;
+    background-color: #def;
+    display:none;
+}
+.close-popup-restart {
+    width: 200px;
+    height: 350px;
+    margin: 10% auto;
+    border: 4px solid #647597;
+    border-radius: 7px;
+    background-color: #def;
+    display:none;
+}
+.go-on {
+    width:97px;
+    height:44px;
+    background-image: url("../images/goon.png");
+    margin:25px auto;
+    
+}
+.restart {
+    width:97px;
+    height:44px;
+    background-image: url("../images/replay.png");
+    margin:42px auto;
+    
+}
+#game-control {
+    position:absolute;
+    top: 510px;
+    z-index:3;
+    display:none;
+}
+.range-list {
+    list-style: none;
+    padding-left:0;
+}
+.range-list li {
+    height: 30px;
+    width: 150px;
+    font-family: fangzheng-miaowu;
+    font-size: 30px;
+    margin: 0 auto;
+    border-bottom: 2px solid #647597;
+    padding-left: 10px;
+}
+.range-name {
+    margin-left: 38px;
+}
+.enter-input {
+    display: block;
+    width: 120px;
+    margin: 10px auto;
+    margin-left: 28px;
+    font-family: fangzheng-miaowu;
+    font-size: 30px;
+    background: transparent;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid;
+    outline: none;
+    text-indent: 10px;
+}
+.your-name {
+    font-family: fangzheng-miaowu;
+    font-size: 24px;
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+    color:#DF0D37;
+}
+.commit {
+    position: absolute;
+    right: 1px;
+    bottom: 9px;
+    width: 52px;
+    height: 37px;
+    background-image: url("../images/commit.png");
+    -webkit-transform: scale(0.6);
+}
+.range-score {
+    color:#1b00ff;
+}
